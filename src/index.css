@@ -42,7 +42,7 @@ code {
   }
   .imgBn{
       width: 100%;
-      height: 85vh;
+      height: 90vh;
       object-fit: cover;
   }
   .BannerBtns{
@@ -51,7 +51,7 @@ code {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    bottom: -5%;
+    bottom: -4%;
     height: 100px;
     z-index: 9999;
     border: 2px solid white;
@@ -66,7 +66,7 @@ code {
     position: absolute;
     color: white;
     font-size: xx-large;
-    top: 55%;
+    top: 65%;
     font-weight: bold;
   }
   /* Card */
@@ -90,4 +90,42 @@ code {
   }
   .wrapperCd,CardBtnContainer{
     display: flex;
+  }
+
+  /* footer */
+  .footer__wrapper{
+    position: relative;
+    bottom: 0;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+
+  }
+  .underline_{
+    width: 50px;
+  }
+  .newsletter_input{
+
+  }
+  .footer__about,footer__newsletter,footer__contact,footer__followUs{
+    width: 15vw;
+   
+  }
+  .cardf__wrapper{
+    display: flex;flex-direction: row;
+    justify-content: space-around;align-items: center;
+    height: 40vh;
+    background-color: #ff3399;
+  }
+  .featured_card{
+    height: auto;
+  }
+  .btn__link{
+    text-decoration: none;
+    text-decoration-line: none;
   }

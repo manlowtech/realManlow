@@ -4,6 +4,7 @@ import Logo from '../../assets/logo.png'
 //import style from './banner.module.css'
 import { ArrowForward} from '@material-ui/icons';
 import {Button,IconButton} from '@material-ui/core'
+import {Link} from 'react-router-dom'
 function Banner() {
     return (
         <div className="container">
@@ -14,8 +15,10 @@ function Banner() {
             <p className="welcomeP">Welcome to realManlow Blog</p>
             </div>
             <div className="BannerBtns">
-            <Button size="large" variant="contained"  color="primary">Explore <IconButton><ArrowForward/></IconButton> </Button>
-             <Button size="large" variant="contained"  color="secondary">About Us</Button>
+            <Link className="btn__link" to="/explore">
+            <Button size="large" variant="contained"  color="primary">Explore <IconButton><ArrowForward/></IconButton> </Button></Link>
+            <Link className="btn__link" to="/about_us">
+             <Button size="large" variant="contained"  color="secondary">About Us <IconButton><ArrowForward/></IconButton></Button></Link>
             </div>
            
         </div>

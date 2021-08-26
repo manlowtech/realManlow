@@ -7,7 +7,7 @@ function App() {
     <div className="App">
     <Router>
       <Route path="/" exact component={Home}/>
-      <Route path="/drop" exact component={Dropzone}/>
+      <Route path="/dropzone" exact component={Dropzone}/>
     </Router>
     </div>
   );
